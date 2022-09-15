@@ -1,5 +1,8 @@
 {
-  "name": "my-component-library",
+  "name": "@arunsharma4084/my-component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/arunsharma4084"
+  },
   "version": "0.0.1",
   "description": "A React Components Library",
   "scripts": {
