@@ -29,7 +29,7 @@ export default [
             resolve(),
             typescript({tsconfig: "./tsconfig.json"})
         ],
-        external: ["react", "react-dom", "styled-components"],
+        external: ["react", "react-dom"],
     },
     {
         input: "dist/esm/index.d.ts",
